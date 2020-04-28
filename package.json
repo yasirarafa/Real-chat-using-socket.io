@@ -1,0 +1,26 @@
+{
+  "name": "real-chat-using-socket.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "server.js",
+    "nodemon": "server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yasirarafa/Real-chat-using-socket.io.git"
+  },
+  "author": "yasir",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yasirarafa/Real-chat-using-socket.io/issues"
+  },
+  "homepage": "https://github.com/yasirarafa/Real-chat-using-socket.io#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "path": "^0.12.7",
+    "socket.io": "^2.3.0"
+  }
+}

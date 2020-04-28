@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+    <meta charset="uft-8">
+    <title></title>
+</head>
+<body>
+    <p>hello</p>
+    <script src="/socket.io/socket.io.js"></script>
+    <script type="text/javascript">
+    let socket = io();
+
+    socket.on('connect', () => {
+        console.log('Connected to server.');
+    });
+
+    socket.on('disconnect', () => {
+        console.log('Disconnected to server.');
+    });
+    </script>
+</body>
+</html>
