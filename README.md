@@ -17,3 +17,4 @@ nodemon start
 ```
 ## Open the browser
 And enter the localhost:5000
+www
